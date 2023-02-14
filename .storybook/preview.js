@@ -1,4 +1,5 @@
 import * as NextImage from 'next/image';
+import '../pages/global.css';
 
 const BREAKPOINTS_INT = {
   xs: 375,
