@@ -10,10 +10,10 @@ const Header: React.FC<IHeader> = ({ className, ...headerProps }) => {
     >
       <div className="space-x-5 m-5">
         <Link className="hover:underline" href="/">
-          About
+          Home
         </Link>
         <Link className="hover:underline" href="/">
-          Store
+          About
         </Link>
       </div>
       <div className="space-x-5 m-5">
