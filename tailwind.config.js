@@ -3,8 +3,8 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
-  // Ensure these match with .storybook/preview.js
   theme: {
+    // Ensure these match with .storybook/preview.js
     screens: {
       xs: '375px',
       sm: '600px',
@@ -12,14 +12,20 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    fontFamily: {
+      sans: ['Arial', 'sans-serif'],
+      serif: ['Garamond', 'serif'],
+    },
     extend: {
       colors: {
-        'nuxt-green': '#00c58e',
-        'tailwind-blue': '#1bb2ba',
-        'storybook-pink': '#ff4785'
-      }
+        blue: {
+          500: '#1a73e8',
+        },
+      },
+      spacing: {
+        128: '32rem',
+      },
     },
   },
-  variants: {},
   plugins: [],
 };
