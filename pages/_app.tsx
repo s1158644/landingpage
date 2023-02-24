@@ -1,3 +1,4 @@
+import { ThemeProvider } from 'next-themes';
 import type { AppProps } from 'next/app';
 import { AuthProvider } from '../state/auth/AuthContext';
 import './global.css';
@@ -11,7 +12,13 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout || ((page) => page);
 
-  return <AuthProvider>{getLayout(<Component {...pageProps} />)}</AuthProvider>;
+  return (
+    <AuthProvider>
+      <ThemeProvider attribute="class">
+        {getLayout(<Component {...pageProps} />)}
+      </ThemeProvider>
+    </AuthProvider>
+  );
 }
 
 export default MyApp;

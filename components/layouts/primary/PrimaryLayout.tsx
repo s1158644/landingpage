@@ -14,9 +14,12 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({
   return (
     <>
       <Head>
-        <title>NextJs Fullstack App Template</title>
+        <title>FeedbackFlow</title>
       </Head>
-      <div {...divProps} className={`min-h-screen flex flex-col ${justify}`}>
+      <div
+        {...divProps}
+        className={`min-h-screen flex flex-col ${justify} bg-white dark:bg-gray-900`}
+      >
         <Header />
         <main className="px-5">{children}</main>
         <div className="m-auto" />

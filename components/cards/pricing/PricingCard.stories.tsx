@@ -1,22 +1,22 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import CatCard, { ICatCard } from './CatCard';
-import { mockCatCardProps } from './CatCard.mocks';
+import PricingCard, { IPricingCard } from './PricingCard';
+import { mockPricingCardProps } from './PricingCard.mocks';
 
 export default {
-  title: 'cards/CatCard',
-  component: CatCard,
+  title: 'cards/PricingCard',
+  component: PricingCard,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
-} as ComponentMeta<typeof CatCard>;
+} as ComponentMeta<typeof PricingCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof CatCard> = (args) => (
-  <CatCard {...args} />
+const Template: ComponentStory<typeof PricingCard> = (args) => (
+  <PricingCard {...args} />
 );
 
 export const Base = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 
 Base.args = {
-  ...mockCatCardProps.base,
-} as ICatCard;
+  ...mockPricingCardProps.base,
+} as IPricingCard;
