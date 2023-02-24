@@ -1,30 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import PricingCard from '../components/cards/pricing/PricingCard';
+import { mockPricingCardProps } from '../components/cards/pricing/PricingCard.mocks';
+import FeatureInformation from '../components/information/features/FeatureInformation';
+import HomeInformation from '../components/information/home/HomeInformation';
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
-import Search from '../components/utility/search/Search';
 import { NextPageWithLayout } from './page';
 
 const Home: NextPageWithLayout = () => {
-  const { locale } = useRouter();
-
   return (
-    <section className="flex flex-col items-center gap-y-5 mt-12 sm:mt-36">
-      <Image
-        src="/Google.png"
-        alt="Google Logo"
-        width={272}
-        height={92}
-        priority
-      />
-      <Search />
-      <p>
-        Google offered in:{' '}
-        <Link href="/" className="underline text-blue-600" locale={locale === 'en' ? 'fr' : 'en'}>
-          Français
-        </Link>
-      </p>
-    </section>
+    <main className="space-y-40 mb-40">
+      <HomeInformation />
+      <FeatureInformation />
+      <PricingCard {...mockPricingCardProps.base} />
+    </main>
   );
 };
 
