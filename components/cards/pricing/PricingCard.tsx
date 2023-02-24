@@ -26,7 +26,7 @@ const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
         <div className="flex flex-wrap -m-4">
           {pricingCards.map((card, index) => (
             <div key={index} className="p-4 lg:w-1/3">
-              <div className="h-full p-6 rounded-lg border-2 border-gray-600 flex flex-col relative overflow-hidden bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div className="h-full p-6 rounded-lg border-2 border-gray-600 flex flex-col relative overflow-hidden bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 ">
                 <p className="my-1 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
                   {card.title}
                 </p>
