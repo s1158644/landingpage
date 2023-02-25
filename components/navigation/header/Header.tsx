@@ -36,20 +36,38 @@ const Header: React.FC<IHeader> = ({ className, ...headerProps }) => {
             className="flex space-x-2 items-center"
           >
             <div className="flex space-x-1 ml-5">
-              <Image
-                src="/FeedbackFlow-Logo-Darkmode.svg"
+              {/* <Image
+                //src="/FeedbackFlow-Logo-Darkmode.svg"
+                src="/Logo-poppins-light.svg"
                 alt="logo"
                 width={200}
                 height={30}
                 className="hidden dark:block"
               />
               <Image
-                src="/FeedbackFlow-Logo.svg"
+                //src="/FeedbackFlow-Logo.svg"
+                src="/Logo-poppins-dark.svg"
                 alt="logo"
                 width={200}
                 height={30}
                 className="dark:hidden"
+              /> */}
+              <Image
+                src="/FeedbackFlow-Logo-Only.svg"
+                alt="logo"
+                width={60}
+                height={60}
               />
+              <div className="flex flex-col justify-center">
+                <div className="flex flex-row items-center mt-2">
+                  <div className="text-2xl font-bold text-green-600">
+                    Feedback
+                  </div>
+                  <div className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+                    Flow
+                  </div>
+                </div>
+              </div>
             </div>
           </Link>
 
