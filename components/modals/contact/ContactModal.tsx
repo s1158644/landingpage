@@ -1,3 +1,4 @@
+import { sendContactEmail } from '@/lib/api';
 import { Input, Modal, Spacer } from '@nextui-org/react';
 import React, { useState } from 'react';
 
@@ -24,8 +25,13 @@ const ContactModal: React.FC<IContactModal> = () => {
     if (!isValid) {
       return;
     }
-    //send email
-    console.log(name, email, company);
+    const data = { name, email, company };
+    sendContactEmail(data);
+
+    handleClose();
+    setName('');
+    setEmail('');
+    setCompany('');
   };
 
   //validate email
