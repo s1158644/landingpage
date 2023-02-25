@@ -22,7 +22,7 @@ const base: IPricingCard = {
       key: 3,
       title: 'Premium',
       description:
-        'Take your feedback management process to the next level with our Premium package. In addition to all of our standard features, you will receive regular updates and on-site training sessions to ensure you are always up-to-date with our latest offerings.',
+        'Elevate your feedback management with our Premium package. You will get all our standard features plus regular updates and on-site training to stay up-to-date with the latest offerings.',
       price: 75,
       features: [
         'Full access to all features',
