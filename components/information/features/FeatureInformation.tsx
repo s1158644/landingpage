@@ -5,13 +5,6 @@ export interface IFeatureInformation {}
 const FeatureInformation: React.FC<IFeatureInformation> = () => {
   return (
     <div id="features">
-      <div
-        aria-hidden="true"
-        className="absolute inset-x-0 opacity-10 grid grid-cols-2 "
-      >
-        <div></div>
-        <div className="blur-[106px] h-56 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-green-600"></div>
-      </div>
       <div className="md:w-2/3 lg:w-1/2 ml-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
