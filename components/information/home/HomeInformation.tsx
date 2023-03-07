@@ -15,68 +15,62 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
       <div className="relative pt-36 ml-auto">
         <div className="lg:w-2/3 text-center mx-auto">
           <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-            Streamline your feedback management and{' '}
-            <span className="text-primary">improve customer satisfaction.</span>
+            Krijg grip op je feedback management en{' '}
+            <span className="text-primary">verbeter klant tevredenheid.</span>
           </h1>
           <p className="mt-8 text-gray-700 dark:text-gray-300">
-            At FeedbackFlow, we believe that effective feedback management is
-            crucial to improving customer satisfaction and driving business
-            growth. Our platform streamlines the feedback process, making it
-            easier than ever for you to gather and analyze customer feedback,
-            identify key insights, and take action to improve your customer
-            experience. With our powerful features, intuitive interface, and
-            data-driven insights, FeedbackFlow empowers you to make smarter
-            decisions, build stronger relationships with your customers, and
-            ultimately, achieve your business goals.
+            Bij FeedbackFlow geloven we dat effectief feedbackbeheer cruciaal is
+            voor het verbeteren van de klanttevredenheid en het stimuleren van
+            bedrijfsgroei. Ons platform stroomlijnt het feedbackproces, waardoor
+            het voor u gemakkelijker dan ooit is om feedback van klanten te
+            verzamelen en te analyseren, belangrijke inzichten te identificeren
+            en actie te ondernemen om uw klantervaring te verbeteren. Met onze
+            krachtige functies, intuïtieve interface en datagestuurde inzichten
+            stelt FeedbackFlow u in staat om slimmere beslissingen te nemen,
+            sterkere relaties met uw klanten op te bouwen en uiteindelijk uw
+            doelen te bereiken.
           </p>
           <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-            {/* <a
-              href="#"
-              className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-            >
-              <span className="relative text-base font-semibold text-white">
-                Get started
-              </span>
-            </a> */}
             <ContactModal />
             <a
               href="#features"
               className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
             >
               <span className="relative text-base font-semibold text-primary dark:text-white">
-                Learn more
+                Meer info
               </span>
             </a>
           </div>
           <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
             <div className="text-left">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                Data-driven insights
+                Datagedreven inzichten
               </h6>
               <p className="mt-2 text-gray-500">
-                Our platform provides valuable insights based on customer
-                feedback data, helping you make informed business decisions to
-                improve customer satisfaction and loyalty.
+                Ons platform biedt waardevolle inzichten op basis van
+                klantfeedbackgegevens, waardoor u weloverwogen zakelijke
+                beslissingen kunt nemen om de klanttevredenheid en loyaliteit te
+                verbeteren.
               </p>
             </div>
             <div className="text-left">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                Scalable
+                Schaalbaar
               </h6>
               <p className="mt-2 text-gray-500">
-                Our platform is designed to grow with your business, providing
-                the flexibility and scalability you need to manage feedback from
-                an increasing number of customers.
+                Ons platform is ontworpen om met je bedrijf mee te groeien en
+                biedt de flexibiliteit en schaalbaarheid die je nodig hebt om
+                feedback van een toenemend aantal klanten te beheren.
               </p>
             </div>
             <div className="text-left ml-2">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                User-Friendly Interface
+                Gebruikers vriendelijke Interface
               </h6>
               <p className="mt-2 text-gray-500">
-                Our platform features an intuitive and easy-to-use interface,
-                making managing customer feedback and improving your customer
-                experience effortless for your team.
+                Ons platform heeft een gebruiksvriendelijke interface, waardoor
+                het beheren van klantfeedback en het verbeteren van uw
+                klantervaring moeiteloos wordt voor uw team.
               </p>
             </div>
           </div>

@@ -20,16 +20,16 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
         </svg>
 
         <h2 className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
-          A technology-first approach to payments and finance
+          Een technology-first benadering
         </h2>
         <p className="text-gray-600 dark:text-gray-300">
-          At FeedbackFlow, we believe in the power of technology to transform
-          the way businesses operate. By taking a technology-first approach to
-          payments and finance, we are able to provide innovative solutions that
-          help businesses streamline their feedback management and improve
-          customer satisfaction. Our roadmap of features is designed to help our
-          clients stay ahead of the curve, leveraging the latest advancements in
-          AI and data analysis to drive business success.
+          Bij FeedbackFlow geloven we in de kracht van technologie om te
+          transformeren de manier waarop bedrijven werken. Onze technology-first
+          benadering stelt ons in staat innovatieve oplossingen te bieden die
+          bedrijven helpen hun feedbackbeheer te stroomlijnen en
+          klanttevredenheid te verbeteren. Onze roadmap met functies is
+          ontworpen om onze klanten voorop te laten lopen en te profiteren van
+          de nieuwste ontwikkelingen.
         </p>
       </div>
       <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
@@ -45,18 +45,17 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
 
             <div className="space-y-2">
               <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
-                First feature
+                Eerste stap
               </h5>
               <p className="text-gray-600 dark:text-gray-300">
-                Develop a dashboard with standard features and reviews from
-                select sites.
+                Dashboard met standaard features en reviews van enkele sites.
               </p>
             </div>
             <a
-              href="#"
+              //href=""
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Read more</span>
+              <span className="text-sm">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -84,17 +83,17 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
 
             <div className="space-y-2">
               <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
-                Second feature
+                Tweede stap
               </h5>
               <p className="text-gray-600 dark:text-gray-300">
-                Expand review coverage to more sites and provide statistics.
+                Het verstrekken van statistieken over alle review sites.
               </p>
             </div>
             <a
-              href="#"
+              //href=""
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Read more</span>
+              <span className="text-sm">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -122,17 +121,17 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
 
             <div className="space-y-2">
               <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
-                Third feature
+                Derde stap
               </h5>
               <p className="text-gray-600 dark:text-gray-300">
-                Display data from all popular review sites in the dashboard.
+                Integratie van product reviews in het dashboard.
               </p>
             </div>
             <a
-              href="#"
+              //href=""
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Read more</span>
+              <span className="text-sm">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -160,18 +159,18 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
 
             <div className="space-y-2">
               <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
-                More features
+                Meer features
               </h5>
               <p className="text-gray-600 dark:text-gray-300">
-                Apply machine learning to the data for advanced search
-                capabilities.
+                Implementatie van machine learning en geavanceerde
+                zoekmogelijkheden.
               </p>
             </div>
             <a
-              href="#"
+              //href=""
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Read more</span>
+              <span className="text-sm">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
