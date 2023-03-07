@@ -1,3 +1,4 @@
+import ContactModal from '@/components/modals/contact/ContactModal';
 import React from 'react';
 import { CheckIcon } from '../../icons/CheckIcon';
 
@@ -20,7 +21,7 @@ const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
             Awesome Feature
           </p>
           <h2 className="mx-auto text-3xl font-bold tracking-wide text-gray-700 dark:text-white md:text-4xl">
-            Flexible Plans
+            Flexibele abonnementen
           </h2>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -37,9 +38,12 @@ const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
                   €{card.price}
                 </p>
                 <a className="contents text-gray-700 dark:text-gray-300">/mo</a>
-                <button className="text-white bg-blue-500 border-0 py-2 px-6 mt-5 focus:outline-none hover:bg-blue-600 rounded">
-                  COMMING SOON
-                </button>
+                <div className="flex items-center justify-center mt-6">
+                  <ContactModal />
+                </div>
+                {/* <button className="text-white bg-blue-500 border-0 py-2 px-6 mt-5 focus:outline-none hover:bg-blue-600 rounded">
+                  CONTACTEER ONS
+                </button> */}
                 <hr className="my-6 border-gray-300 dark:border-gray-700" />
                 <div className="absolute h-0.5 inset-x-0 bottom-0 bg-gray-300 dark:bg-gray-700"></div>
                 <ul className="flex-grow mt-2 text-base text-gray-500">

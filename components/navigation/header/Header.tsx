@@ -71,7 +71,7 @@ const Header: React.FC<IHeader> = ({ className, ...headerProps }) => {
             </div>
           </Link>
 
-          <div className="relative flex items-center lg:hidden max-h-10">
+          <div className="relative flex items-center lg:hidden max-h-10 mt-3">
             <label
               htmlFor="toggle_nav"
               aria-label="humburger"
@@ -137,7 +137,7 @@ const Header: React.FC<IHeader> = ({ className, ...headerProps }) => {
                     document.getElementById('toggle_nav')?.click();
                   }}
                 >
-                  Pricing
+                  Prijzen
                 </Link>
               </li>
               <div className="w-14 h-8">
