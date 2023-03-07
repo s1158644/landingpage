@@ -5,6 +5,13 @@ export interface IFeatureInformation {}
 const FeatureInformation: React.FC<IFeatureInformation> = () => {
   return (
     <div id="features">
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 opacity-10 grid grid-cols-2 "
+      >
+        <div></div>
+        <div className="blur-[106px] h-56 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-green-600"></div>
+      </div>
       <div className="md:w-2/3 lg:w-1/2 ml-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -23,8 +30,8 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
           Een technology-first benadering
         </h2>
         <p className="text-gray-600 dark:text-gray-300">
-          Bij FeedbackFlow geloven we in de kracht van technologie om te
-          transformeren de manier waarop bedrijven werken. Onze technology-first
+          Bij FeedbackFlow geloven we in de kracht van technologie om de manier
+          waarop bedrijven werken te kunnen transformen. Onze technology-first
           benadering stelt ons in staat innovatieve oplossingen te bieden die
           bedrijven helpen hun feedbackbeheer te stroomlijnen en
           klanttevredenheid te verbeteren. Onze roadmap met functies is

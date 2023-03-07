@@ -16,7 +16,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
         <div className="lg:w-2/3 text-center mx-auto">
           <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
             Krijg grip op je feedback management en{' '}
-            <span className="text-primary">verbeter klant tevredenheid.</span>
+            <span className="text-primary">verbeter klanttevredenheid.</span>
           </h1>
           <p className="mt-8 text-gray-700 dark:text-gray-300">
             Bij FeedbackFlow geloven we dat effectief feedbackbeheer cruciaal is
@@ -44,7 +44,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
           <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
             <div className="text-left">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                Datagedreven inzichten
+                Datagedreven
               </h6>
               <p className="mt-2 text-gray-500">
                 Ons platform biedt waardevolle inzichten op basis van
@@ -65,7 +65,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
             </div>
             <div className="text-left ml-2">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                Gebruikers vriendelijke Interface
+                Gebruikers vriendelijk
               </h6>
               <p className="mt-2 text-gray-500">
                 Ons platform heeft een gebruiksvriendelijke interface, waardoor
