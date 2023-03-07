@@ -15,12 +15,17 @@ export interface IPricingCard {
 const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
   return (
     <div id="pricingcard">
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 grid grid-cols-2 -space-x-52 opacity-20"
+      >
+        <div className="blur-[106px] h-56 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-green-600"></div>
+        <div className="blur-[106px] h-32 bg-gradient-to-br from-primary to-green-600 dark:from-green-500"></div>
+      </div>
+
       <div className="flex flex-col items-center justify-center px-5 mx-auto sm:px-24 lg:px-40">
         <div className="flex flex-col w-full mb-12 text-left lg:text-center">
-          <p className="mx-auto text-base font-semibold tracking-wide text-blue-600 uppercase">
-            Awesome Feature
-          </p>
-          <h2 className="mx-auto text-3xl font-bold tracking-wide text-gray-700 dark:text-white md:text-4xl">
+          <h2 className="mx-auto text-3xl font-bold tracking-wide text-gray-800 dark:text-white md:text-4xl">
             Flexibele abonnementen
           </h2>
         </div>
@@ -34,16 +39,13 @@ const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
                 <p className="flex items-center text-gray-600 mb-4">
                   <span className="text-base">{card.description}</span>
                 </p>
-                <p className="my-1 text-2xl font-bold contents text-gray-700 dark:text-white md:text-4xl group-hover:text-secondary">
+                {/* <p className="my-1 text-2xl font-bold contents text-gray-700 dark:text-white md:text-4xl group-hover:text-secondary">
                   €{card.price}
                 </p>
-                <a className="contents text-gray-700 dark:text-gray-300">/mo</a>
+                <a className="contents text-gray-700 dark:text-gray-300">/mo</a> */}
                 <div className="flex items-center justify-center mt-6">
                   <ContactModal />
                 </div>
-                {/* <button className="text-white bg-blue-500 border-0 py-2 px-6 mt-5 focus:outline-none hover:bg-blue-600 rounded">
-                  CONTACTEER ONS
-                </button> */}
                 <hr className="my-6 border-gray-300 dark:border-gray-700" />
                 <div className="absolute h-0.5 inset-x-0 bottom-0 bg-gray-300 dark:bg-gray-700"></div>
                 <ul className="flex-grow mt-2 text-base text-gray-500">

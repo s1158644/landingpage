@@ -7,7 +7,7 @@ const base: IPricingCard = {
       title: 'Test Klant',
       description:
         'Begin bij FeedbackFlow als testklant en maak gebruik van onze standaardfuncties. Door ons waardevolle feedback te geven, help je ons om te verbeteren en de kwaliteit van onze diensten te verhogen.',
-      price: 10,
+      price: 30,
       features: [
         'Gebruiksvriendelijke interface',
         'Toegang to standaard features',
