@@ -14,7 +14,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
       </div>
       <div className="relative pt-36 ml-auto">
         <div className="lg:w-2/3 text-center mx-auto">
-          <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+          <h1 className="text-gray-900 dark:text-white font-bold text-4xl md:text-6xl lg:text-7xl">
             Krijg grip op je feedback management en{' '}
             <span className="text-primary">verbeter klanttevredenheid.</span>
           </h1>
