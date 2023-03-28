@@ -14,7 +14,12 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({
   return (
     <>
       <Head>
-        <title>FeedbackFlow</title>
+        <title>Krijg grip op je feedback management | FeedbackFlow</title>
+        <meta
+          name="description"
+          content="Bij FeedbackFlow geloven we dat effectief feedbackbeheer cruciaal is voor het verbeteren van de klanttevredenheid en het stimuleren van bedrijfsgroei. Ons platform stroomlijnt het feedbackproces, waardoor het voor u gemakkelijker dan ooit is om feedback van klanten te verzamelen en te analyseren, belangrijke inzichten te identificeren en actie te ondernemen om uw klantervaring te verbeteren."
+          key="desc"
+        />
       </Head>
       <div
         {...divProps}
