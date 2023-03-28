@@ -59,7 +59,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               </p>
             </div>
             <a
-              //href=""
+              href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
               <span className="text-sm">Lees meer</span>
@@ -97,7 +97,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               </p>
             </div>
             <a
-              //href=""
+              href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
               <span className="text-sm">Lees meer</span>
@@ -135,7 +135,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               </p>
             </div>
             <a
-              //href=""
+              href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
               <span className="text-sm">Lees meer</span>
@@ -174,7 +174,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               </p>
             </div>
             <a
-              //href=""
+              href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
               <span className="text-sm">Lees meer</span>
