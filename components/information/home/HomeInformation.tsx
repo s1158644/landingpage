@@ -46,7 +46,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
                 Datagedreven
               </h6>
-              <p className="mt-2 text-gray-500">
+              <p className="mt-2 text-gray-700">
                 Ons platform biedt waardevolle inzichten op basis van
                 klantfeedbackgegevens, waardoor u weloverwogen zakelijke
                 beslissingen kunt nemen om de klanttevredenheid en loyaliteit te
@@ -57,7 +57,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
                 Schaalbaar
               </h6>
-              <p className="mt-2 text-gray-500">
+              <p className="mt-2 text-gray-700">
                 Ons platform is ontworpen om met je bedrijf mee te groeien en
                 biedt de flexibiliteit en schaalbaarheid die je nodig hebt om
                 feedback van een toenemend aantal klanten te beheren.
@@ -67,7 +67,7 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
                 Gebruikers vriendelijk
               </h6>
-              <p className="mt-2 text-gray-500">
+              <p className="mt-2 text-gray-700">
                 Ons platform heeft een gebruiksvriendelijke interface, waardoor
                 het beheren van klantfeedback en het verbeteren van uw
                 klantervaring moeiteloos wordt voor uw team.
