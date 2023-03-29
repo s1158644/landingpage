@@ -38,16 +38,16 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
             <Image
               src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
               className="w-12"
-              width="512"
-              height="512"
+              width="48"
+              height="48"
               alt="burger illustration"
             />
 
             <div className="space-y-2">
-              <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                 Eerste stap
-              </h5>
-              <p className="text-gray-600 dark:text-gray-300">
+              </h1>
+              <p className="text-gray-600 dark:text-gray-200">
                 Dashboard met standaard features en reviews van enkele sites.
               </p>
             </div>
@@ -55,7 +55,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Lees meer</span>
+              <span className="text-sm dark:text-gray-300">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -76,16 +76,16 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
             <Image
               src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
               className="w-12"
-              width="512"
-              height="512"
+              width="48"
+              height="48"
               alt="burger illustration"
             />
 
             <div className="space-y-2">
-              <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                 Tweede stap
-              </h5>
-              <p className="text-gray-600 dark:text-gray-300">
+              </h1>
+              <p className="text-gray-600 dark:text-gray-200">
                 Het verstrekken van statistieken over alle review sites.
               </p>
             </div>
@@ -93,7 +93,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Lees meer</span>
+              <span className="text-sm dark:text-gray-300">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -114,16 +114,16 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
             <Image
               src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png"
               className="w-12"
-              width="512"
-              height="512"
+              width="48"
+              height="48"
               alt="burger illustration"
             />
 
             <div className="space-y-2">
-              <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                 Derde stap
-              </h5>
-              <p className="text-gray-600 dark:text-gray-300">
+              </h1>
+              <p className="text-gray-600 dark:text-gray-200">
                 Integratie van product reviews in het dashboard.
               </p>
             </div>
@@ -131,7 +131,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Lees meer</span>
+              <span className="text-sm dark:text-gray-300">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -152,16 +152,16 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
             <Image
               src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
               className="w-12"
-              width="512"
-              height="512"
+              width="48"
+              height="48"
               alt="burger illustration"
             />
 
             <div className="space-y-2">
-              <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                 Meer features
-              </h5>
-              <p className="text-gray-600 dark:text-gray-300">
+              </h1>
+              <p className="text-gray-600 dark:text-gray-200">
                 Implementatie van machine learning en geavanceerde
                 zoekmogelijkheden.
               </p>
@@ -170,7 +170,7 @@ const FeatureInformation: React.FC<IFeatureInformation> = () => {
               href="#features"
               className="flex items-center justify-between group-hover:text-secondary"
             >
-              <span className="text-sm">Lees meer</span>
+              <span className="text-sm dark:text-gray-300">Lees meer</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

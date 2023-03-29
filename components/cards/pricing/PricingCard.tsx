@@ -36,7 +36,7 @@ const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
                 <p className="my-1 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl group-hover:text-secondary">
                   {card.title}
                 </p>
-                <p className="flex items-center text-gray-600 mb-4">
+                <p className="flex items-center text-gray-700 dark:text-gray-200 mb-4">
                   <span className="text-base">{card.description}</span>
                 </p>
                 {/* <p className="my-1 text-2xl font-bold contents text-gray-700 dark:text-white md:text-4xl group-hover:text-secondary">
@@ -48,7 +48,7 @@ const PricingCard: React.FC<IPricingCard> = ({ pricingCards }) => {
                 </div>
                 <hr className="my-6 border-gray-300 dark:border-gray-700" />
                 <div className="absolute h-0.5 inset-x-0 bottom-0 bg-gray-300 dark:bg-gray-700"></div>
-                <ul className="flex-grow mt-2 text-base text-gray-500">
+                <ul className="flex-grow mt-2 text-base text-gray-700 dark:text-gray-200">
                   {card.features.map((feature, index) => (
                     <li key={index} className="inline-flex items-center">
                       <CheckIcon />
