@@ -41,33 +41,33 @@ const HomeInformation: React.FC<IHomeInformation> = () => {
               </span>
             </a>
           </div>
-          <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
-            <div className="text-left">
-              <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
+          <div className="py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+            <div className="text-left mt-2">
+              <h1 className="text-lg font-semibold text-gray-700 dark:text-white ml-1">
                 Datagedreven
-              </h6>
-              <p className="mt-2 text-gray-500">
+              </h1>
+              <p className="mt-2 text-gray-700">
                 Ons platform biedt waardevolle inzichten op basis van
                 klantfeedbackgegevens, waardoor u weloverwogen zakelijke
                 beslissingen kunt nemen om de klanttevredenheid en loyaliteit te
                 verbeteren.
               </p>
             </div>
-            <div className="text-left">
-              <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
+            <div className="text-left mt-2">
+              <h1 className="text-lg font-semibold text-gray-700 dark:text-white ml-1">
                 Schaalbaar
-              </h6>
-              <p className="mt-2 text-gray-500">
+              </h1>
+              <p className="mt-2 text-gray-700">
                 Ons platform is ontworpen om met je bedrijf mee te groeien en
                 biedt de flexibiliteit en schaalbaarheid die je nodig hebt om
                 feedback van een toenemend aantal klanten te beheren.
               </p>
             </div>
-            <div className="text-left ml-2">
-              <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
+            <div className="text-left mt-2">
+              <h1 className="text-lg font-semibold text-gray-700 dark:text-white ml-1">
                 Gebruikers vriendelijk
-              </h6>
-              <p className="mt-2 text-gray-500">
+              </h1>
+              <p className="mt-2 text-gray-700">
                 Ons platform heeft een gebruiksvriendelijke interface, waardoor
                 het beheren van klantfeedback en het verbeteren van uw
                 klantervaring moeiteloos wordt voor uw team.

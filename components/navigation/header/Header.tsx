@@ -36,22 +36,6 @@ const Header: React.FC<IHeader> = ({ className, ...headerProps }) => {
             className="flex space-x-2 items-center"
           >
             <div className="flex space-x-1 ml-5">
-              {/* <Image
-                //src="/FeedbackFlow-Logo-Darkmode.svg"
-                src="/Logo-poppins-light.svg"
-                alt="logo"
-                width={200}
-                height={30}
-                className="hidden dark:block"
-              />
-              <Image
-                //src="/FeedbackFlow-Logo.svg"
-                src="/Logo-poppins-dark.svg"
-                alt="logo"
-                width={200}
-                height={30}
-                className="dark:hidden"
-              /> */}
               <Image
                 src="/FeedbackFlow-Logo-Only.svg"
                 alt="logo"
@@ -140,22 +124,26 @@ const Header: React.FC<IHeader> = ({ className, ...headerProps }) => {
                   Prijzen
                 </Link>
               </li>
-              <div className="w-14 h-8">
-                <input
-                  type="checkbox"
-                  id="dark-mode-toggle"
-                  className="hidden"
-                  onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                />
-                <label
-                  htmlFor="dark-mode-toggle"
-                  className="w-full h-full bg-gray-800 dark:bg-white rounded-full p-1 flex justify-between cursor-pointer"
-                >
-                  <span className="inline dark:hidden">🌞</span>
-                  <span className="w-6 h-6 rounded-full bg-white dark:bg-gray-800 block float-right dark:float-left"></span>
-                  <span className="hidden dark:inline">🌛</span>
-                </label>
-              </div>
+              <li>
+                <div className="w-14 h-8">
+                  <input
+                    type="checkbox"
+                    id="dark-mode-toggle"
+                    className="hidden"
+                    onChange={() =>
+                      setTheme(theme === 'dark' ? 'light' : 'dark')
+                    }
+                  />
+                  <label
+                    htmlFor="dark-mode-toggle"
+                    className="w-full h-full bg-gray-800 dark:bg-white rounded-full p-1 flex justify-between cursor-pointer"
+                  >
+                    <span className="inline dark:hidden">🌞</span>
+                    <span className="w-6 h-6 rounded-full bg-white dark:bg-gray-800 block float-right dark:float-left"></span>
+                    <span className="hidden dark:inline">🌛</span>
+                  </label>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
