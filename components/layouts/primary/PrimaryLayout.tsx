@@ -20,6 +20,18 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({
           content="Bij FeedbackFlow geloven we dat effectief feedbackbeheer cruciaal is voor het verbeteren van de klanttevredenheid en het stimuleren van bedrijfsgroei. Ons platform stroomlijnt het feedbackproces, waardoor het voor u gemakkelijker dan ooit is om feedback van klanten te verzamelen en te analyseren, belangrijke inzichten te identificeren en actie te ondernemen om uw klantervaring te verbeteren."
           key="desc"
         />
+        <meta
+          property="og:title"
+          content="Krijg grip op je feedback management | FeedbackFlow"
+        />
+        <meta
+          property="og:description"
+          content="Bij FeedbackFlow geloven we dat effectief feedbackbeheer cruciaal is voor het verbeteren van de klanttevredenheid en het stimuleren van bedrijfsgroei. Ons platform stroomlijnt het feedbackproces, waardoor het voor u gemakkelijker dan ooit is om feedback van klanten te verzamelen en te analyseren, belangrijke inzichten te identificeren en actie te ondernemen om uw klantervaring te verbeteren."
+        />
+        <meta
+          property="og:image"
+          content="https://www.feedbackflow.nl/FeedbackFlow-Logo-Only.svg"
+        />
       </Head>
       <div
         {...divProps}
